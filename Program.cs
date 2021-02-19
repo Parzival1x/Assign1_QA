@@ -34,19 +34,6 @@ namespace Assign1_QA
             return rect_wth;
         }
 
-        public int getperimeter(int length, int width)
-        {
-            rect_perimeter = ((length * 2) + (width * 2));
-
-            return rect_perimeter;
-        }
-
-        public int getarea(int length, int width)
-        {
-            rect_area = (length * width);
-
-            return rect_area;
-        }
 
         public int setlength(int length)
         {
@@ -60,6 +47,21 @@ namespace Assign1_QA
             rect_wth = width;
 
             return width;
+        }
+
+
+        public int getperimeter(int length, int width)
+        {
+            rect_perimeter = (2 * (length + width));
+
+            return rect_perimeter;
+        }
+
+        public int getarea(int length, int width)
+        {
+            rect_area = (length * width);
+
+            return rect_area;
         }
     }
 
