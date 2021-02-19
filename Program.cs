@@ -20,8 +20,8 @@ namespace Assign1_QA
 
         public Rectangle(int length, int width)
         {
-            setlength(length);
-            setwidth(width);
+            SetLength(length);
+            SetWidth(width);
         }
 
         public int GetLength()
@@ -116,10 +116,11 @@ namespace Assign1_QA
                             Console.WriteLine("The length of the rectangle is : " + rect.GetLength() + "\n");
                             break;
                         case 2:
-                            Console.WriteLine("The length is set at " + rect.GetLength() + "\n");
+                            Console.WriteLine("The width of the rectangle is : " + rect.GetWidth() + "\n");
+
                             break;
                         case 3:
-                            Console.WriteLine("The width of the rectangle is : " + rect.GetWidth() + "\n");
+                            Console.WriteLine("The length is set at " + rect.GetLength() + "\n");
                             break;
                         case 4:
                             Console.WriteLine("The width is set at " + rect.GetWidth() + "\n");
