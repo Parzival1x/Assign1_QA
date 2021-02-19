@@ -24,25 +24,25 @@ namespace Assign1_QA
             setwidth(width);
         }
 
-        public int getlength()
+        public int GetLength()
         {
             return rect_lth;
         }
 
-        public int getwidth()
+        public int GetWidth()
         {
             return rect_wth;
         }
 
 
-        public int setlength(int length)
+        public int SetLength(int length)
         {
             rect_lth = length;
 
             return length;
         }
 
-        public int setwidth(int width)
+        public int SetWidth(int width)
         {
             rect_wth = width;
 
@@ -50,14 +50,14 @@ namespace Assign1_QA
         }
 
 
-        public int getperimeter(int length, int width)
+        public int GetPerimeter(int length, int width)
         {
             rect_perimeter = (2 * (length + width));
 
             return rect_perimeter;
         }
 
-        public int getarea(int length, int width)
+        public int GetArea(int length, int width)
         {
             rect_area = (length * width);
 
@@ -77,15 +77,15 @@ namespace Assign1_QA
 
             Console.Write("Enter length for Rectangle: ");
             lth = Convert.ToInt32(Console.ReadLine());
-            rect.setlength(lth);
+            rect.SetLength(lth);
 
             Console.Write("Enter width for Rectangle: ");
             wdth = Convert.ToInt32(Console.ReadLine());
-            rect.setwidth(wdth);
+            rect.SetWidth(wdth);
 
-            bool PleaseContinue = true;
+            bool Continue = true;
 
-            while (PleaseContinue)
+            while (Continue)
             {
                 Console.WriteLine(
                     "Choose one of the following option to continue:" + "\n"
@@ -97,7 +97,7 @@ namespace Assign1_QA
                     + "6. Get Area of rectangle." + "\n"
                     + "7. Quit!");
 
-                Console.Write("Please enter a value - ");
+                Console.Write("Please enter a value from the list: ");
 
                 user_input = Console.ReadLine();
 
@@ -113,26 +113,26 @@ namespace Assign1_QA
                     switch (choice)
                     {
                         case 1:
-                            Console.WriteLine("The length of the rectangle is : " + rect.getlength() + "\n");
+                            Console.WriteLine("The length of the rectangle is : " + rect.GetLength() + "\n");
                             break;
                         case 2:
-                            Console.WriteLine("The length is set at " + rect.getlength() + "\n");
+                            Console.WriteLine("The length is set at " + rect.GetLength() + "\n");
                             break;
                         case 3:
-                            Console.WriteLine("The width of the rectangle is : " + rect.getwidth() + "\n");
+                            Console.WriteLine("The width of the rectangle is : " + rect.GetWidth() + "\n");
                             break;
                         case 4:
-                            Console.WriteLine("The width is set at " + rect.getwidth() + "\n");
+                            Console.WriteLine("The width is set at " + rect.GetWidth() + "\n");
                             break;
                         case 5:
-                            Console.WriteLine("The Perimeter of rectangle is: " + rect.getperimeter(wdth, lth) + "\n");
+                            Console.WriteLine("The Perimeter of rectangle is: " + rect.GetPerimeter(wdth, lth) + "\n");
                             break;
                         case 6:
                             if (lth > 0 && wdth > 0)
-                                Console.WriteLine("The Area of the rectangle is " + rect.getarea(wdth, lth) + "\n");
+                                Console.WriteLine("The Area of the rectangle is " + rect.GetArea(wdth, lth) + "\n");
                             break;
                         case 7:
-                            PleaseContinue = false;
+                            Continue = false;
                             break;
                     }
                 }

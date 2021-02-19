@@ -5,3 +5,6 @@ C:\Users\abhi\Documents\GitHub\Assign1_QA\Assign1_QA\obj\Debug\Assign1_QA.csproj
 C:\Users\abhi\Documents\GitHub\Assign1_QA\Assign1_QA\obj\Debug\Assign1_QA.csproj.CoreCompileInputs.cache
 C:\Users\abhi\Documents\GitHub\Assign1_QA\Assign1_QA\obj\Debug\Assign1_QA.exe
 C:\Users\abhi\Documents\GitHub\Assign1_QA\Assign1_QA\obj\Debug\Assign1_QA.pdb
+C:\Users\abhi\Documents\GitHub\Assign1_QA\Assign1_QA\bin\Debug\nunit.framework.dll
+C:\Users\abhi\Documents\GitHub\Assign1_QA\Assign1_QA\bin\Debug\nunit.framework.xml
+C:\Users\abhi\Documents\GitHub\Assign1_QA\Assign1_QA\obj\Debug\Assign1_QA.csproj.CopyComplete
