@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment1_QA
+namespace Assign1_QA
 {
     public class Rectangle
     {
